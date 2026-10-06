@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Wahyu Adha</title>
+    <link rel="stylesheet" href="ADHA.css">
+</head>
+<body>
+
+    <header>
+        <h1>WEBSITE "WAHYU ADHA"</h1>
+    </header>
+
+    <div class="container">
+        
+        <div class="kolom-kiri">
+            <p><a href="#data-table">Link Ke Tabel</a></p>
+            
+            <table id="data-table">
+                <thead>
+                    <tr>
+                        <th>NAMA</th>
+                        <th>ALAMAT</th>
+                        <th>KOTA ASAL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td contenteditable="true">Wahyu</td>
+                        <td contenteditable="true">Panam Taman Karya</td>
+                        <td contenteditable="true">Tembilahan</td>
+                    </tr>
+                    <tr>
+                        <td contenteditable="true">Rahmad</td>
+                        <td contenteditable="true">Pasir putih</td>
+                        <td contenteditable="true">Pekanbaru</td>
+                    </tr>
+                    <tr>
+                        <td contenteditable="true">Sir Ghazi</td>
+                        <td contenteditable="true">Jl. Mawar Bangau</td>
+                        <td contenteditable="true">Karimun</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="akreditasi">
+                <h3>DAFTAR AKREDITASI PRODI DI FMIPA</h3>
+                <ol>
+                    <li>UNGGUL
+                        <ul>
+                            <li>S1 MATEMATIKA</li>
+                            <li>S1 KIMIA</li>
+                            <li>S1 BIOLOGI</li>
+                            <li>S1 FISIKA</li>
+                            <li>D3 MI</li>
+                        </ul>
+                    </li>
+                    <li>BAIK SEKALI
+                        <ul>
+                            <li>S1 SISTEM INFORMASI</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="kolom-kanan">
+            <p><a href="https://mahasiswa.unri.ac.id/auth/login" target="_blank">Link ke Web SATU UNRI</a></p>
+            
+            <div class="box-kanan">
+                <h2>FORMULIR</h2>
+                
+                <form action="output.php" method="POST">
+                    <label>NAMA :</label>
+                    <input type="text" name="txtnama" size="20" maxlength="30"><br>
+
+                    <label>HOBBY :</label>
+                    <input type="text" name="txthobby" size="25" maxlength="40"><br>
+
+                    <label>Catatan :</label><br>
+                    <textarea name="catatan" rows="4" cols="30">Menurut saya :</textarea><br>
+
+                    <label>Makanan Kesukaan :</label><br>
+                    <select name="makanan">
+                        <option value="Bakso">Bakso</option>
+                        <option value="soto">soto</option>
+                        <option value="martabak">martabak</option>
+                    </select><br><br>
+
+                    <label>Sayur kesukaan:</label><br>
+                    <input type="checkbox" name="kol"> kol <br>
+                    <input type="checkbox" name="sawi"> sawi <br>
+                    <input type="checkbox" name="lain"> selada <br><br>
+
+                    <label>Jenis kelamin :</label><br>
+                    <input type="radio" name="gender" value="pria"> pria
+                    <input type="radio" name="gender" value="wanita"> wanita <br><br>
+
+                    <label>Agama :</label><br>
+                    <input type="radio" name="agama" value="islam"> islam <br>
+                    <input type="radio" name="agama" value="protestan"> protestan <br>
+                    <input type="radio" name="agama" value="katolik"> katolik <br>
+                    <input type="radio" name="agama" value="budha"> budha <br>
+                    <input type="radio" name="agama" value="hindu"> hindu <br><br>
+
+                    <input type="submit" value="Kirim">
+                    <input type="reset" value="Clear">
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>@Created By : Wahyu Adha</p>
+    </footer>
+
+</body>
+</html> 
+
